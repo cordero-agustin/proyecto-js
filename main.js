@@ -1,29 +1,15 @@
-
+//Divisas a convertir y sus valores
 const divisas = [
     dolar=1155,
     pesos = prompt('Cantidad de pesos a convertir'),
     euro=1317]
-// const cantidad = prompt('Cantidad de pesos');
+//Resultado de la conversión
 let resultado = (pesos/dolar).toFixed(2);
+//Alert por si se ingresa un valor no numérico
 if (isNaN(pesos)) {
     alert("Error: Debes ingresar un número válido.");
 }
+//Alert que indica el total de la conversión
 else (alert(pesos+ 'ARS equivale a '+resultado+ 'USD'))
-// const de = 'ARS'; 
-// const hacia = 'EUR';   
-
-// const resultado = convertirDivisa(cantidad, de, hacia);
-// if (isNaN(cantidad)) {
-//     console.log("Error: Debes ingresar un número válido.");
-// }
-// console.log(`${cantidad} ${de} son aproximadamente ${resultado.toFixed(2)} ${hacia}`);
-
-// if (isNaN(cantidad)) {
-//     alert("Error: Debes ingresar un número válido.");
-//     console.log("Error: Debes ingresar un número válido.");
-// }
-// else(alert(`${cantidad} ${de} son aproximadamente ${resultado.toFixed(2)} ${hacia}`));{
-//     console.log(`${cantidad} ${de} son aproximadamente ${resultado.toFixed(2)} ${hacia}`);
-// }
 
 
